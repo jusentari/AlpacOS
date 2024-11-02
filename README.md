@@ -2,11 +2,11 @@
 
 Mainly inspired by (or even lifted from) xv6  
 
-To compile:  
+### To compile:  
 Run `make qemu-grub` to run it normally  
 Run `make qemu-gdb` to run it with a gdb hook, then type `target remote localhost:1234` in gdb to start debugging  
 
-Features:  
+### Features:  
 lol  
 `x<mem location in hex>` to see what is at a memory location. That's it rn
 
@@ -50,10 +50,10 @@ xv6 init:
   mpmain();        // finish this processor's setup  
 
 
-References:
-https://github.com/palladian1/xv6-annotated/
-https://pages.cs.wisc.edu/~remzi/OSTEP/
-https://wiki.osdev.org/Main_Page
-https://csapp.cs.cmu.edu/3e/home.html
-https://github.com/ry755/fennecos/
-https://github.com/mit-pdos/xv6-public
+References:  
+https://github.com/palladian1/xv6-annotated/  
+https://pages.cs.wisc.edu/~remzi/OSTEP/  
+https://wiki.osdev.org/Main_Page  
+https://csapp.cs.cmu.edu/3e/home.html  
+https://github.com/ry755/fennecos/  
+https://github.com/mit-pdos/xv6-public  
